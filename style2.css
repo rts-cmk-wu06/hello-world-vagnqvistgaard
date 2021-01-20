@@ -1,0 +1,78 @@
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+body{
+    background-color: #0cade1;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+h1{
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #005da1;*/
+    font-size: 4em;
+    text-align: center;
+}
+
+p{
+    /*font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #005da1;*/
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header{
+    height:200px;
+    margin-bottom: 25px;
+    /*background-color: #FFFFFF;
+    border: solid 5px #005da1;*/
+}
+
+nav{
+    height: 75px;
+    margin-bottom: 25px;
+    /*background-color: #FFFFFF;
+    border: solid 5px #005da1;*/
+}
+
+main{
+    display: flex;
+    flex-grow: 1;
+    justify-content:space-between;
+    margin-bottom: 25px;
+}
+
+article{
+    width: 70%;
+    /*background-color: #FFFFFF;
+    border: solid 5px #005da1;*/
+}
+
+section{
+    width: 25%;
+    /*background-color: #FFFFFF;
+    border: solid 5px #005da1;*/
+}
+
+footer{
+    height: 125px;
+    /*background-color: #FFFFFF;
+    border: solid 5px #005da1;*/
+}
+
+/* fonte og fontfarver til tekstindhold */
+h1, p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #005da1;
+}
+
+
+/* baggrundsfarver og rammer til bokse */
+header, nav, article, section, footer{
+    background-color: #FFFFFF;
+    border: solid 5px #005da1;
+}
